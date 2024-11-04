@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>python-ds</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>S534199</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14580,39 +14580,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Web-Mining-and-Applied-NLP-(44-620)">Web Mining and Applied NLP (44-620)<a class="anchor-link" href="#Web-Mining-and-Applied-NLP-(44-620)">&#182;</a></h1><h2 id="Python-Notebooks,-Basics,-and-Data-Structures">Python Notebooks, Basics, and Data Structures<a class="anchor-link" href="#Python-Notebooks,-Basics,-and-Data-Structures">&#182;</a></h2><h3 id="Student-Name:-Cera-Drake">Student Name: Cera Drake<a class="anchor-link" href="#Student-Name:-Cera-Drake">&#182;</a></h3><p>GitHub Link: <a href="https://github.com/ceradrake/python-ds-nb">https://github.com/ceradrake/python-ds-nb</a></p>
-<p>Perform the tasks described in the Markdown cells below.  When you have completed the assignment make sure your code cells have all been run (and have output beneath them) and ensure you have committed and pushed ALL of your changes to your assignment repository.</p>
-<p>Every question that requires you to write code will have a code cell underneath it; you may either write your entire solution in that cell or write it in a python file (<code>.py</code>), then import and run the appropriate code to answer the question.</p>
-<p>Do not use external modules (<code>math</code>, etc) for this assignment unless you are explicitly instructed to, though you may use built in python functions (<code>min</code>, <code>max</code>, etc) as you wish.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Modify the Markdown cell above to put your name after "Student Name:"; you will be expected to do this in all assignments presented in this format for this class.</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Write code that divides any two numbers, stores the result in a variable, and prints the result with an appropriate label.</li>
-</ol>
-
+<h1 id="Cera-Drake">Cera Drake<a class="anchor-link" href="#Cera-Drake">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14621,13 +14589,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number1</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">number2</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">result</span> <span class="o">=</span> <span class="n">number1</span> <span class="o">/</span> <span class="n">number2</span> 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The result of dividing these 2 numbers is:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rows</span> <span class="o">=</span> <span class="mi">4</span> 
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">rows</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">'*'</span> <span class="o">*</span> <span class="n">i</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">' '</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="n">rows</span> <span class="o">-</span> <span class="n">i</span><span class="p">)),</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">'*'</span> <span class="o">*</span> <span class="n">i</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14649,575 +14619,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The result of dividing these 2 numbers is: 2.0
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Using loops (and potentially conditionals), write Python code that prints the factorial of each integer from 1 through 10 (which you can store in a variable if you want). The factorial of an integer is the product of all of the integers of 1 through the number. Print the result with an appropriate label.</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
-    <span class="n">factorial</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">num</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
-        <span class="n">factorial</span> <span class="o">*=</span> <span class="n">i</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"The factorial of </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s2"> is: </span><span class="si">{</span><span class="n">factorial</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The factorial of 1 is: 1
-The factorial of 2 is: 2
-The factorial of 3 is: 6
-The factorial of 4 is: 24
-The factorial of 5 is: 120
-The factorial of 6 is: 720
-The factorial of 7 is: 5040
-The factorial of 8 is: 40320
-The factorial of 9 is: 362880
-The factorial of 10 is: 3628800
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Write a python function that takes a single parameter and calculates and returns the average (mean) of the values in the parameter (which you may assume is iterable).  Show that your function works by printing the result of calling the function on the list in the cell below.</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">calculatemean</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
-    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">values</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">)</span> <span class="k">if</span> <span class="n">values</span> <span class="k">else</span> <span class="mi">0</span>
-<span class="n">testlist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span> 
-<span class="n">result</span> <span class="o">=</span> <span class="n">calculatemean</span><span class="p">(</span><span class="n">testlist</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The average of the testlist is:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The average of the testlist is: 0.0
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Using your mean function above, write a function that calculates the variance of the list of numbers (see <a href="https://en.wikipedia.org/wiki/Variance">https://en.wikipedia.org/wiki/Variance</a> for more information on the formula). In short:</li>
-</ol>
-<ul>
-<li>subtract the mean of the elements in the list from every element in the list; store these values in a new list</li>
-<li>square every element in the new list and sum the elements together</li>
-<li>divide the resulting number by N (where N is the length of the original list)</li>
-</ul>
-<p>Show the result of calling your function in the lists in the code cell. You must use one or more list comprehensions or map/filter in your code.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">list1</span> <span class="o">=</span> <span class="p">[</span> <span class="mf">5.670e-1</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.480e+0</span><span class="p">,</span> <span class="o">-</span><span class="mf">5.570e-1</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.470e+0</span><span class="p">,</span> <span class="mf">7.340e-1</span><span class="p">,</span> <span class="mf">1.050e+0</span><span class="p">,</span> <span class="mf">4.480e-1</span><span class="p">,</span> <span class="mf">2.570e-1</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.970e+0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.460e+0</span><span class="p">]</span>
-<span class="n">list2</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">1.780e+0</span><span class="p">,</span> <span class="mf">2.640e-1</span><span class="p">,</span> <span class="mf">1.160e+0</span><span class="p">,</span> <span class="mf">9.080e-1</span><span class="p">,</span> <span class="mf">1.780e+0</span><span class="p">,</span> <span class="mf">1.080e+0</span><span class="p">,</span> <span class="mf">1.050e+0</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.630e-2</span><span class="p">,</span> <span class="mf">1.520e+0</span><span class="p">,</span> <span class="mf">5.350e-1</span><span class="p">]</span>
-<span class="c1"># the variances of both lists should be relatively close to 1 (off by less than .15)</span>
-<span class="k">def</span> <span class="nf">calculatemean</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
-    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">values</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">)</span> <span class="k">if</span> <span class="n">values</span> <span class="k">else</span> <span class="mi">0</span>
-<span class="k">def</span> <span class="nf">calculate_variance</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
-    <span class="n">mean</span> <span class="o">=</span> <span class="n">calculatemean</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
-    <span class="n">squared_diffs</span> <span class="o">=</span> <span class="p">[(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mean</span><span class="p">)</span><span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">values</span><span class="p">]</span>
-    <span class="n">variance</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">squared_diffs</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">variance</span>
-<span class="n">variance_result</span><span class="o">=</span> <span class="n">calculate_variance</span><span class="p">(</span><span class="n">list1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The variance of list1 is:"</span><span class="p">,</span> <span class="n">variance_result</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The variance of list1 is: 1.13973309
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Create a list with at least 15 elements in it. Use list slicing to print the following:</li>
-</ol>
-<ul>
-<li>The first 5 elements of the list</li>
-<li>The last 5 elements of the list</li>
-<li>The list reversed (hint, show the entire list with a stride of -1)</li>
-<li>Every second element in the list</li>
-<li>Every third element in the list (stride of 3)</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mylist</span><span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
-<span class="n">firstfive</span> <span class="o">=</span> <span class="n">mylist</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"First five elements are:"</span><span class="p">,</span> <span class="n">firstfive</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-First five elements are: [1, 2, 3, 4, 5]
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mylist</span><span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">]</span>
-<span class="n">lastfive</span> <span class="o">=</span> <span class="n">mylist</span><span class="p">[</span><span class="o">-</span><span class="mi">5</span><span class="p">:]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The last 5 elements are:"</span><span class="p">,</span> <span class="n">lastfive</span><span class="p">)</span>
-<span class="n">listreversed</span><span class="o">=</span> <span class="n">mylist</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The list reversed is:"</span><span class="p">,</span> <span class="n">listreversed</span><span class="p">)</span>
-<span class="n">everysecondelement</span><span class="o">=</span> <span class="n">mylist</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span> 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Every other element is:"</span><span class="p">,</span> <span class="n">everysecondelement</span><span class="p">)</span>
-<span class="n">everythirdelement</span><span class="o">=</span> <span class="n">mylist</span><span class="p">[::</span><span class="mi">3</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Every third element is:"</span><span class="p">,</span> <span class="n">everythirdelement</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The last 5 elements are: [11, 12, 13, 14, 15]
-The list reversed is: [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-Every other element is: [1, 3, 5, 7, 9, 11, 13, 15]
-Every third element is: [1, 4, 7, 10, 13]
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Build a dictionary that contains the following information about this class (with appropriate names as keys):</li>
-</ol>
-<ul>
-<li>The name</li>
-<li>The course number</li>
-<li>The semester/term in which you are taking this course</li>
-<li>The number of credit hours this course counts for</li>
-<li>A list of the course learning objectives</li>
-</ul>
-<p>The majority of this information can be found in the syllabus. Print the dictionary.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">course_information</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"Name"</span><span class="p">:</span> <span class="s2">"Web Mining and Applied Natural Language Processing (NLP)"</span><span class="p">,</span> 
-    <span class="s2">"Course Number"</span><span class="p">:</span> <span class="s2">"44-620 80/81"</span><span class="p">,</span>
-    <span class="s2">"Semester"</span><span class="p">:</span> <span class="s2">"Fall 2024 - Block 2"</span><span class="p">,</span>
-    <span class="s2">"Credit Hours"</span><span class="p">:</span> <span class="s2">"3"</span><span class="p">,</span>
-    <span class="s2">"Learning Objectives"</span><span class="p">:[</span>
-        <span class="s2">"Manage python libraries and packages"</span><span class="p">,</span> 
-        <span class="s2">"Interact with hosted version control systems"</span><span class="p">,</span> 
-        <span class="s2">"Programmatically obtain and transform data from web-based APIs and HTML pages into a usable form."</span><span class="p">,</span> 
-        <span class="s2">"Describe the steps in a basic Natural Language Processing Pipeline"</span><span class="p">,</span> 
-        <span class="s2">"Use preexisting tools and software libraries to perform some Natural Language Processing, such as sentiment analysis"</span><span class="p">,</span> 
-        <span class="s2">"Explain results and conclusions drawn from the visualized information"</span>
-    <span class="p">]</span>
-<span class="p">}</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">course_information</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;Name&#39;: &#39;Web Mining and Applied Natural Language Processing (NLP)&#39;, &#39;Course Number&#39;: &#39;44-620 80/81&#39;, &#39;Semester&#39;: &#39;Fall 2024 - Block 2&#39;, &#39;Credit Hours&#39;: &#39;3&#39;, &#39;Learning Objectives&#39;: [&#39;Manage python libraries and packages&#39;, &#39;Interact with hosted version control systems&#39;, &#39;Programmatically obtain and transform data from web-based APIs and HTML pages into a usable form.&#39;, &#39;Describe the steps in a basic Natural Language Processing Pipeline&#39;, &#39;Use preexisting tools and software libraries to perform some Natural Language Processing, such as sentiment analysis&#39;, &#39;Explain results and conclusions drawn from the visualized information&#39;]}
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Given the dictionary defined in the code cell below, print the list of level 3 spells the character has.</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">player_character</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'name'</span><span class="p">:</span> <span class="s1">'Kitab'</span><span class="p">,</span>
-                   <span class="s1">'class'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'Cleric: Knowledge'</span><span class="p">,</span> <span class="mi">7</span><span class="p">)],</span>
-                   <span class="s1">'spells'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'cantrip'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Guidance'</span><span class="p">,</span> <span class="s1">'Light'</span><span class="p">,</span> <span class="s1">'Thaumaturgy'</span><span class="p">,</span> <span class="s1">'Toll the Dead'</span><span class="p">,</span> <span class="s1">'Word of Radiance'</span><span class="p">],</span>
-                             <span class="s1">'level 1'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Command'</span><span class="p">,</span> <span class="s1">'Detect Magic'</span><span class="p">,</span> <span class="s1">'Healing Word'</span><span class="p">,</span> <span class="s1">'Identify'</span><span class="p">,</span> <span class="s1">'Sleep'</span><span class="p">],</span>
-                             <span class="s1">'level 2'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Augury'</span><span class="p">,</span> <span class="s1">'Calm Emotions'</span><span class="p">,</span> <span class="s1">'Command'</span><span class="p">,</span> <span class="s1">'Invisibility'</span><span class="p">,</span> <span class="s1">'Lesser Restoration'</span><span class="p">],</span>
-                             <span class="s1">'level 3'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Mass Healing Word'</span><span class="p">,</span> <span class="s1">'Nondetection'</span><span class="p">,</span> <span class="s1">'Revivify'</span><span class="p">,</span> <span class="s1">'Feign Death'</span><span class="p">,</span> <span class="s1">'Speak with Dead'</span><span class="p">],</span>
-                             <span class="s1">'level 4'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Banishment'</span><span class="p">,</span> <span class="s1">'Confusion'</span><span class="p">]}</span>
-<span class="p">}</span>
-<span class="n">level3spells</span><span class="o">=</span> <span class="n">player_character</span><span class="p">[</span><span class="s2">"spells"</span><span class="p">][</span><span class="s2">"level 3"</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">level3spells</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[&#39;Mass Healing Word&#39;, &#39;Nondetection&#39;, &#39;Revivify&#39;, &#39;Feign Death&#39;, &#39;Speak with Dead&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Write code to determine the number of unique elements in the list below.  You MUST use a set in finding your solution.  Print the number of unique values in the list with an appropriate label.</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
-<span class="n">uniquevalues</span><span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
-<span class="n">numberuniquevalues</span><span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">uniquevalues</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Number of unique values: </span><span class="si">{</span><span class="n">numberuniquevalues</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Number of unique values: 12
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Create a new Jupyter Notebook (the name of the notebook should be your S number). Add a Markdown cell that contains your name. Add a Code cell and write Python that uses loops to draw the following pattern:</li>
-</ol>
-
-<pre><code>*      *
+<pre>*      *
 **    **
 ***  ***
-********</code></pre>
-<p>Make sure to add and submit both the new notebook and the changes to this notebook for this assignment.</p>
+********
+</pre>
+</div>
+</div>
 
 </div>
+
 </div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
-<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">'jupyter nbconvert --to html python-ds.ipynb'</span><span class="p">)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">'jupyter nbconvert --to html S534199.ipynb'</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div>
